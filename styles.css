@@ -1,0 +1,63 @@
+/* Add in the fonts */
+@font-face {
+  font-family: "Fanwood";
+  src: url("/fonts/Fanwood_Text/FanwoodText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Indie Flower";
+  src: url("/fonts/Indie_Flower/IndieFlower-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin";
+  src: url("/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("truetype");
+}
+
+/* Universal Styles */
+html {
+  font-family: "Josefin", sans-serif;
+  font-size: 18px;
+  background-color: #CCD5AE;
+}
+
+h1 {
+  font-family: "Fanwood", Calibri, serif;
+  font-size: 70px;
+  text-align: center;
+  color: #D4A373;
+  text-shadow: 2px 2px #CCD5AE;
+  background-color: #E9EDC9;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  color: #D4A373;
+}
+
+article {
+  border: 3px solid #D4A373;
+  margin: 30px;
+  padding: 0 20px;
+  background-color: #FEFAE0;
+}
+
+/* Navbar */
+nav {
+  background-color: #D4A373;
+}
+
+nav a {
+  color: #FEFAE0;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #D4A373;
+  background-color: #FEFAE0;
+}
+
+/* About Section */
+nav {
