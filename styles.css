@@ -1,17 +1,17 @@
 /* Add in the fonts */
 @font-face {
   font-family: "Fanwood";
-  src: url("/fonts/Fanwood_Text/FanwoodText-Regular.ttf") format("truetype");
+  src: url("fonts/Fanwood_Text/FanwoodText-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Indie Flower";
-  src: url("/fonts/Indie_Flower/IndieFlower-Regular.ttf") format("truetype");
+  src: url("fonts/Indie_Flower/IndieFlower-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Josefin";
-  src: url("/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  src: url("fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("truetype");
 }
 
 /* Universal Styles */
