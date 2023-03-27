@@ -173,6 +173,11 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 550px) {
+  #sign-up{
+    background-image: url("images/nature1.jpg");
+    background-position: 50% 50%;
+  }
+
   #sign-up-content {
     width: 95%;
   }
