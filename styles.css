@@ -144,6 +144,42 @@ nav a:hover {
 /* Sign-up Section */
 #sign-up {
   text-align: center;
+  background-image: url("images/nature3.jpg");
+}
+
+#sign-up-content {
+  width: 20rem;
+  height: 16rem;
+  background-color: #FEFAE0;
+  margin: auto;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sign-up-content p {
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+}
+
+#sign-up-content button {
+  background-color: #D4A373;
+  color: #FEFAE0;
+  font-size: 2rem;
+  width: 90%;
+  height: 20%;
+}
+
+@media only screen and (max-width: 550px) {
+  #sign-up-content {
+    width: 95%;
+  }
+
+  #sign-up-content button {
+    font-size: 1.5rem;
+  }
 }
 
 /* Activities Section */
