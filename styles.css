@@ -46,6 +46,12 @@ article {
   background-color: #FEFAE0;
 }
 
+@media only screen and (max-width: 500px) {
+  article {
+    font-size: 1.11rem;
+  }
+}
+
 /* Navbar */
 nav {
   position: sticky;
@@ -81,10 +87,51 @@ nav a:hover {
   display: grid;
   grid-template-columns: 35% 65%;
   column-gap: 1rem;
+  align-items: center;
 }
 
 #about-content img {
   max-width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  #about-content {
+    display: block;
+  }
+
+  #nature1 {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  #right-side {
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #about {
+    background-image: url("images/nature3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #about-content {
+    display: block;
+  }
+  
+  #about-content img {
+    position: absolute;
+    visibility: hidden;
+  }
+  
+  #about-content span {
+    position: relative;
+    color: #FEFAE0;
+    opacity: 100%;
+  }
+
+
 }
 
 /* Sign-up Section */
@@ -118,4 +165,41 @@ nav a:hover {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+@media only screen and (max-width: 900px) {
+  .activity {
+    width: 23rem;
+    height: 18rem;
+    margin: 0.5rem;
+  }
+
+  .activity img {
+    width: 21rem;
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .activity {
+    width: 16rem;
+    height: 13rem;
+  }
+
+  .activity img {
+    width: 14rem;
+    height: 10rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .activity {
+    width: 14rem;
+    height: 12rem;
+  }
+
+  .activity img {
+    width: 12rem;
+    height: 8.55rem;
+  }
 }
