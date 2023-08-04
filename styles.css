@@ -22,6 +22,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   font-family: "Fanwood", Calibri, serif;
   font-size: 70px;
@@ -112,7 +116,7 @@ nav a:hover {
   max-width: 100%;
 }
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   #about-content {
     display: block;
   }
@@ -126,7 +130,8 @@ nav a:hover {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px),
+(orientation: portrait) {
   #about {
     background-image: url("images/nature3.jpg");
     background-size: cover;
